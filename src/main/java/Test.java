@@ -16,6 +16,7 @@ public class Test {
                 .limit(10)
                 .collect(toList ());
         topTen.forEach(System.out::println);
+        System.out.println("cats");
     }
 
     private static String alphabetize(String s) {
